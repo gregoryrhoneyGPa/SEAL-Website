@@ -1,0 +1,2836 @@
+{
+  "generatedAt": "2025-12-18T13:27:03.918Z",
+  "results": [
+    {
+      "file": "beach sunset-1.JPG",
+      "originalSize": 225377,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-1200.webp",
+          "size": 104532,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-1200.avif",
+          "size": 62889,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-1200.jpg",
+          "size": 121428,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-800.webp",
+          "size": 56338,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-800.avif",
+          "size": 35108,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-800.jpg",
+          "size": 62139,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-400.webp",
+          "size": 16444,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-400.avif",
+          "size": 10454,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-400.jpg",
+          "size": 17925,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-sunset-1-orig.webp",
+          "size": 118290,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "beach swing-1.JPG",
+      "originalSize": 403904,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-1200.webp",
+          "size": 233334,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-1200.avif",
+          "size": 155189,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-1200.jpg",
+          "size": 226834,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-800.webp",
+          "size": 130102,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-800.avif",
+          "size": 95519,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-800.jpg",
+          "size": 119436,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-400.webp",
+          "size": 35980,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-400.avif",
+          "size": 30127,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-400.jpg",
+          "size": 32559,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-swing-1-orig.webp",
+          "size": 256148,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "beach-1.jpeg",
+      "originalSize": 201359,
+      "originalWidth": 1069,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\beach-1-800.webp",
+          "size": 121966,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-800.avif",
+          "size": 80289,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-800.jpg",
+          "size": 108849,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-400.webp",
+          "size": 29510,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-400.avif",
+          "size": 19141,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-400.jpg",
+          "size": 26668,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-orig.webp",
+          "size": 215420,
+          "width": 1069,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "beach-1.JPG",
+      "originalSize": 170712,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\beach-1-1200.webp",
+          "size": 68190,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-1200.avif",
+          "size": 40279,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-1200.jpg",
+          "size": 92409,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-800.webp",
+          "size": 39342,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-800.avif",
+          "size": 24289,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-800.jpg",
+          "size": 49908,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-400.webp",
+          "size": 13620,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-400.avif",
+          "size": 9344,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-400.jpg",
+          "size": 16226,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\beach-1-orig.webp",
+          "size": 76920,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "camping-1.webp",
+      "originalSize": 875556,
+      "originalWidth": 2560,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\camping-1-1920.webp",
+          "size": 208726,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-1920.avif",
+          "size": 106432,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-1920.jpg",
+          "size": 285970,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-1200.webp",
+          "size": 110606,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-1200.avif",
+          "size": 61795,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-1200.jpg",
+          "size": 137920,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-800.webp",
+          "size": 62738,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-800.avif",
+          "size": 37762,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-800.jpg",
+          "size": 73548,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-400.webp",
+          "size": 22874,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-400.avif",
+          "size": 15558,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-400.jpg",
+          "size": 24601,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-1-orig.webp",
+          "size": 345726,
+          "width": 2560,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "camping-2.avif",
+      "originalSize": 142206,
+      "originalWidth": 768,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\camping-2-400.webp",
+          "size": 38450,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-2-400.avif",
+          "size": 32590,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-2-400.jpg",
+          "size": 33857,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-2-orig.webp",
+          "size": 141028,
+          "width": 768,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "camping-3.avif",
+      "originalSize": 66878,
+      "originalWidth": 512,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\camping-3-400.webp",
+          "size": 41672,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-3-400.avif",
+          "size": 28966,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-3-400.jpg",
+          "size": 44134,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\camping-3-orig.webp",
+          "size": 65202,
+          "width": 512,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "family in europe.jpg",
+      "originalSize": 9966,
+      "originalWidth": 253,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\family-in-europe-orig.webp",
+          "size": 10848,
+          "width": 253,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "floating.png",
+      "originalSize": 1007440,
+      "originalWidth": 889,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\floating-800.webp",
+          "size": 82748,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\floating-800.avif",
+          "size": 55477,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\floating-800.jpg",
+          "size": 84574,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\floating-400.webp",
+          "size": 25302,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\floating-400.avif",
+          "size": 18124,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\floating-400.jpg",
+          "size": 24754,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\floating-orig.webp",
+          "size": 101526,
+          "width": 889,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "golf-1.jpeg",
+      "originalSize": 73901,
+      "originalWidth": 710,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\golf-1-400.webp",
+          "size": 25944,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\golf-1-400.avif",
+          "size": 16626,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\golf-1-400.jpg",
+          "size": 25709,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\golf-1-orig.webp",
+          "size": 69808,
+          "width": 710,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "greek isles-1.webp",
+      "originalSize": 19014,
+      "originalWidth": 300,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\greek-isles-1-orig.webp",
+          "size": 19886,
+          "width": 300,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "hiking-1.jpg",
+      "originalSize": 364944,
+      "originalWidth": 2000,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\hiking-1-1920.webp",
+          "size": 482008,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-1920.avif",
+          "size": 315168,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-1920.jpg",
+          "size": 467214,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-1200.webp",
+          "size": 230588,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-1200.avif",
+          "size": 169871,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-1200.jpg",
+          "size": 211762,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-800.webp",
+          "size": 110920,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-800.avif",
+          "size": 81157,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-800.jpg",
+          "size": 98080,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-400.webp",
+          "size": 28228,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-400.avif",
+          "size": 20832,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-400.jpg",
+          "size": 24210,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hiking-1-orig.webp",
+          "size": 481814,
+          "width": 2000,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "Home Page cover image.png",
+      "originalSize": 6770562,
+      "originalWidth": 2816,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-1920.webp",
+          "size": 232898,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-1920.avif",
+          "size": 102020,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-1920.jpg",
+          "size": 293028,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-1200.webp",
+          "size": 117556,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-1200.avif",
+          "size": 59811,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-1200.jpg",
+          "size": 134258,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-800.webp",
+          "size": 65652,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-800.avif",
+          "size": 36157,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-800.jpg",
+          "size": 68399,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-400.webp",
+          "size": 19876,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-400.avif",
+          "size": 11865,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-400.jpg",
+          "size": 19263,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-page-cover-image-orig.webp",
+          "size": 410282,
+          "width": 2816,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "home-camping.webp",
+      "originalSize": 104554,
+      "originalWidth": 768,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\home-camping-400.webp",
+          "size": 19886,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-camping-400.avif",
+          "size": 13018,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-camping-400.jpg",
+          "size": 21925,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\home-camping-orig.webp",
+          "size": 64730,
+          "width": 768,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "hotel-1.JPG",
+      "originalSize": 162185,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\hotel-1-1200.webp",
+          "size": 62450,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-1200.avif",
+          "size": 37163,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-1200.jpg",
+          "size": 87981,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-800.webp",
+          "size": 35072,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-800.avif",
+          "size": 22580,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-800.jpg",
+          "size": 47695,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-400.webp",
+          "size": 12720,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-400.avif",
+          "size": 9110,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-400.jpg",
+          "size": 15706,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-1-orig.webp",
+          "size": 69958,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "hotel-2.JPG",
+      "originalSize": 177244,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\hotel-2-1200.webp",
+          "size": 60282,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-1200.avif",
+          "size": 32400,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-1200.jpg",
+          "size": 99101,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-800.webp",
+          "size": 36920,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-800.avif",
+          "size": 20475,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-800.jpg",
+          "size": 54549,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-400.webp",
+          "size": 13070,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-400.avif",
+          "size": 7779,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-400.jpg",
+          "size": 17245,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\hotel-2-orig.webp",
+          "size": 65460,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "ice sailing.jpg",
+      "originalSize": 2674044,
+      "originalWidth": 2048,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-1920.webp",
+          "size": 484432,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-1920.avif",
+          "size": 314396,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-1920.jpg",
+          "size": 462573,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-1200.webp",
+          "size": 202044,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-1200.avif",
+          "size": 135147,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-1200.jpg",
+          "size": 190427,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-800.webp",
+          "size": 92854,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-800.avif",
+          "size": 59910,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-800.jpg",
+          "size": 86099,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-400.webp",
+          "size": 23492,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-400.avif",
+          "size": 15190,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-400.jpg",
+          "size": 21678,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\ice-sailing-orig.webp",
+          "size": 563334,
+          "width": 2048,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "island cabin-1.JPG",
+      "originalSize": 146607,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-1200.webp",
+          "size": 56552,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-1200.avif",
+          "size": 28453,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-1200.jpg",
+          "size": 77189,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-800.webp",
+          "size": 32464,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-800.avif",
+          "size": 16811,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-800.jpg",
+          "size": 41029,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-400.webp",
+          "size": 10540,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-400.avif",
+          "size": 5725,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-400.jpg",
+          "size": 12474,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-cabin-1-orig.webp",
+          "size": 60668,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "island hotel-1.JPG",
+      "originalSize": 207065,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-1200.webp",
+          "size": 94436,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-1200.avif",
+          "size": 53529,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-1200.jpg",
+          "size": 117099,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-800.webp",
+          "size": 58054,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-800.avif",
+          "size": 34086,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-800.jpg",
+          "size": 63402,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-400.webp",
+          "size": 18126,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-400.avif",
+          "size": 11620,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-400.jpg",
+          "size": 18667,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-1-orig.webp",
+          "size": 101164,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "island hotel-2.JPG",
+      "originalSize": 257280,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-1200.webp",
+          "size": 124388,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-1200.avif",
+          "size": 78591,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-1200.jpg",
+          "size": 138971,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-800.webp",
+          "size": 66982,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-800.avif",
+          "size": 44170,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-800.jpg",
+          "size": 71462,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-400.webp",
+          "size": 20946,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-400.avif",
+          "size": 14694,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-400.jpg",
+          "size": 21344,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-hotel-2-orig.webp",
+          "size": 140440,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "island mountain cabin-1.JPG",
+      "originalSize": 417808,
+      "originalWidth": 1280,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-1200.webp",
+          "size": 257062,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-1200.avif",
+          "size": 158516,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-1200.jpg",
+          "size": 243028,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-800.webp",
+          "size": 139776,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-800.avif",
+          "size": 100175,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-800.jpg",
+          "size": 128372,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-400.webp",
+          "size": 35098,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-400.avif",
+          "size": 27022,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-400.jpg",
+          "size": 32261,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\island-mountain-cabin-1-orig.webp",
+          "size": 283492,
+          "width": 1280,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "italy-1.jpg",
+      "originalSize": 74411,
+      "originalWidth": 612,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\italy-1-400.webp",
+          "size": 32232,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\italy-1-400.avif",
+          "size": 23907,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\italy-1-400.jpg",
+          "size": 30738,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\italy-1-orig.webp",
+          "size": 70190,
+          "width": 612,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "kayaking-1.avif",
+      "originalSize": 409539,
+      "originalWidth": 1920,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-1920.webp",
+          "size": 305172,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-1920.avif",
+          "size": 170333,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-1920.jpg",
+          "size": 359659,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-1200.webp",
+          "size": 157356,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-1200.avif",
+          "size": 91894,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-1200.jpg",
+          "size": 169551,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-800.webp",
+          "size": 81932,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-800.avif",
+          "size": 51480,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-800.jpg",
+          "size": 83405,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-400.webp",
+          "size": 24144,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-400.avif",
+          "size": 15533,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-400.jpg",
+          "size": 23469,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\kayaking-1-orig.webp",
+          "size": 305172,
+          "width": 1920,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "mediterranean-1.jpg",
+      "originalSize": 631143,
+      "originalWidth": 1024,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\mediterranean-1-800.webp",
+          "size": 247882,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mediterranean-1-800.avif",
+          "size": 204866,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mediterranean-1-800.jpg",
+          "size": 226036,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mediterranean-1-400.webp",
+          "size": 53332,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mediterranean-1-400.avif",
+          "size": 42835,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mediterranean-1-400.jpg",
+          "size": 48354,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mediterranean-1-orig.webp",
+          "size": 432002,
+          "width": 1024,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "MENA castle-1.webp",
+      "originalSize": 405750,
+      "originalWidth": 1422,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-1200.webp",
+          "size": 292284,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-1200.avif",
+          "size": 191130,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-1200.jpg",
+          "size": 281495,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-800.webp",
+          "size": 152752,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-800.avif",
+          "size": 107639,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-800.jpg",
+          "size": 138456,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-400.webp",
+          "size": 43322,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-400.avif",
+          "size": 32080,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-400.jpg",
+          "size": 38751,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-1-orig.webp",
+          "size": 430234,
+          "width": 1422,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "MENA castle-2.webp",
+      "originalSize": 23780,
+      "originalWidth": 300,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\mena-castle-2-orig.webp",
+          "size": 25362,
+          "width": 300,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "MENA castle-3.webp",
+      "originalSize": 416632,
+      "originalWidth": 2048,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-1920.webp",
+          "size": 373074,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-1920.avif",
+          "size": 210211,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-1920.jpg",
+          "size": 432891,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-1200.webp",
+          "size": 191552,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-1200.avif",
+          "size": 117560,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-1200.jpg",
+          "size": 202999,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-800.webp",
+          "size": 100182,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-800.avif",
+          "size": 65362,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-800.jpg",
+          "size": 100286,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-400.webp",
+          "size": 30072,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-400.avif",
+          "size": 20778,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-400.jpg",
+          "size": 29111,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mena-castle-3-orig.webp",
+          "size": 433272,
+          "width": 2048,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "MENA-1.webp",
+      "originalSize": 17194,
+      "originalWidth": 300,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\mena-1-orig.webp",
+          "size": 17996,
+          "width": 300,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "Morocco-1.webp",
+      "originalSize": 22292,
+      "originalWidth": 300,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\morocco-1-orig.webp",
+          "size": 23610,
+          "width": 300,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "mountain biking-1.avif",
+      "originalSize": 277991,
+      "originalWidth": 1920,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-1920.webp",
+          "size": 325182,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-1920.avif",
+          "size": 207745,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-1920.jpg",
+          "size": 374847,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-1200.webp",
+          "size": 173556,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-1200.avif",
+          "size": 107813,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-1200.jpg",
+          "size": 177952,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-800.webp",
+          "size": 89372,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-800.avif",
+          "size": 58897,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-800.jpg",
+          "size": 87518,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-400.webp",
+          "size": 25528,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-400.avif",
+          "size": 17703,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-400.jpg",
+          "size": 24247,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-1-orig.webp",
+          "size": 325182,
+          "width": 1920,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "mountain biking-2.jpg",
+      "originalSize": 498272,
+      "originalWidth": 1440,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-1200.webp",
+          "size": 226400,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-1200.avif",
+          "size": 179435,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-1200.jpg",
+          "size": 199545,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-800.webp",
+          "size": 105638,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-800.avif",
+          "size": 84852,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-800.jpg",
+          "size": 92115,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-400.webp",
+          "size": 26120,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-400.avif",
+          "size": 20821,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-400.jpg",
+          "size": 22350,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-biking-2-orig.webp",
+          "size": 312590,
+          "width": 1440,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "mountain cycling-1.avif",
+      "originalSize": 201489,
+      "originalWidth": 1920,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-1920.webp",
+          "size": 166440,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-1920.avif",
+          "size": 93220,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-1920.jpg",
+          "size": 224495,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-1200.webp",
+          "size": 89896,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-1200.avif",
+          "size": 48553,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-1200.jpg",
+          "size": 110473,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-800.webp",
+          "size": 49394,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-800.avif",
+          "size": 28679,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-800.jpg",
+          "size": 56846,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-400.webp",
+          "size": 16642,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-400.avif",
+          "size": 10454,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-400.jpg",
+          "size": 17453,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\mountain-cycling-1-orig.webp",
+          "size": 166440,
+          "width": 1920,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "phuket beach.jpg",
+      "originalSize": 44870,
+      "originalWidth": 612,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\phuket-beach-400.webp",
+          "size": 16668,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\phuket-beach-400.avif",
+          "size": 10919,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\phuket-beach-400.jpg",
+          "size": 18163,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\phuket-beach-orig.webp",
+          "size": 35432,
+          "width": 612,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "phuket beach2.jpg",
+      "originalSize": 29571,
+      "originalWidth": 612,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\phuket-beach2-400.webp",
+          "size": 9648,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\phuket-beach2-400.avif",
+          "size": 6382,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\phuket-beach2-400.jpg",
+          "size": 11715,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\phuket-beach2-orig.webp",
+          "size": 18708,
+          "width": 612,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "pickleball 1.jpg",
+      "originalSize": 801263,
+      "originalWidth": 3000,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-1920.webp",
+          "size": 254696,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-1920.avif",
+          "size": 137614,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-1920.jpg",
+          "size": 326755,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-1200.webp",
+          "size": 125066,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-1200.avif",
+          "size": 69472,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-1200.jpg",
+          "size": 145193,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-800.webp",
+          "size": 63030,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-800.avif",
+          "size": 35289,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-800.jpg",
+          "size": 69496,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-400.webp",
+          "size": 18760,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-400.avif",
+          "size": 11330,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-400.jpg",
+          "size": 20320,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-1-orig.webp",
+          "size": 492010,
+          "width": 3000,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "pickleball 2.jpg",
+      "originalSize": 28077,
+      "originalWidth": 540,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\pickleball-2-400.webp",
+          "size": 15966,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-2-400.avif",
+          "size": 10513,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-2-400.jpg",
+          "size": 18584,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\pickleball-2-orig.webp",
+          "size": 24608,
+          "width": 540,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "pickleball 4.jpg",
+      "originalSize": 36927,
+      "originalWidth": 307,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\pickleball-4-orig.webp",
+          "size": 20846,
+          "width": 307,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "pool view.png",
+      "originalSize": 982183,
+      "originalWidth": 942,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\pool-view-800.webp",
+          "size": 51702,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\pool-view-800.avif",
+          "size": 31648,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\pool-view-800.jpg",
+          "size": 62696,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\pool-view-400.webp",
+          "size": 18282,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\pool-view-400.avif",
+          "size": 12371,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\pool-view-400.jpg",
+          "size": 20187,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\pool-view-orig.webp",
+          "size": 68698,
+          "width": 942,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "rock climbing.jpg",
+      "originalSize": 90206,
+      "originalWidth": 900,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\rock-climbing-800.webp",
+          "size": 107082,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\rock-climbing-800.avif",
+          "size": 63963,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\rock-climbing-800.jpg",
+          "size": 106209,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\rock-climbing-400.webp",
+          "size": 38384,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\rock-climbing-400.avif",
+          "size": 26298,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\rock-climbing-400.jpg",
+          "size": 34095,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\rock-climbing-orig.webp",
+          "size": 115020,
+          "width": 900,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "skiing-1.avif",
+      "originalSize": 101965,
+      "originalWidth": 1920,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\skiing-1-1920.webp",
+          "size": 128848,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-1920.avif",
+          "size": 75491,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-1920.jpg",
+          "size": 189074,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-1200.webp",
+          "size": 75586,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-1200.avif",
+          "size": 43276,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-1200.jpg",
+          "size": 98842,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-800.webp",
+          "size": 41758,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-800.avif",
+          "size": 25875,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-800.jpg",
+          "size": 51782,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-400.webp",
+          "size": 13632,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-400.avif",
+          "size": 9251,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-400.jpg",
+          "size": 16109,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-1-orig.webp",
+          "size": 128848,
+          "width": 1920,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "skiing-2.jpg",
+      "originalSize": 2311348,
+      "originalWidth": 2048,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\skiing-2-1920.webp",
+          "size": 431098,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-1920.avif",
+          "size": 243123,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-1920.jpg",
+          "size": 462628,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-1200.webp",
+          "size": 221296,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-1200.avif",
+          "size": 133930,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-1200.jpg",
+          "size": 211772,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-800.webp",
+          "size": 112034,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-800.avif",
+          "size": 72411,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-800.jpg",
+          "size": 103595,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-400.webp",
+          "size": 30732,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-400.avif",
+          "size": 18939,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-400.jpg",
+          "size": 26840,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-2-orig.webp",
+          "size": 478220,
+          "width": 2048,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "skiing-3.jpg",
+      "originalSize": 1099122,
+      "originalWidth": 2000,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\skiing-3-1920.webp",
+          "size": 366710,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-1920.avif",
+          "size": 198488,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-1920.jpg",
+          "size": 484222,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-1200.webp",
+          "size": 205208,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-1200.avif",
+          "size": 120427,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-1200.jpg",
+          "size": 231211,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-800.webp",
+          "size": 109530,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-800.avif",
+          "size": 70618,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-800.jpg",
+          "size": 116832,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-400.webp",
+          "size": 29810,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-400.avif",
+          "size": 19485,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-400.jpg",
+          "size": 31453,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\skiing-3-orig.webp",
+          "size": 395390,
+          "width": 2000,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "splash park.jpg",
+      "originalSize": 294177,
+      "originalWidth": 1440,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\splash-park-1200.webp",
+          "size": 106224,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-1200.avif",
+          "size": 70449,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-1200.jpg",
+          "size": 120954,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-800.webp",
+          "size": 59602,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-800.avif",
+          "size": 41974,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-800.jpg",
+          "size": 62054,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-400.webp",
+          "size": 18156,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-400.avif",
+          "size": 14375,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-400.jpg",
+          "size": 18458,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\splash-park-orig.webp",
+          "size": 138678,
+          "width": 1440,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "state park.jpg",
+      "originalSize": 68414,
+      "originalWidth": 1160,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\state-park-800.webp",
+          "size": 46438,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\state-park-800.avif",
+          "size": 28339,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\state-park-800.jpg",
+          "size": 54964,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\state-park-400.webp",
+          "size": 14772,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\state-park-400.avif",
+          "size": 9653,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\state-park-400.jpg",
+          "size": 16648,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\state-park-orig.webp",
+          "size": 75790,
+          "width": 1160,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "sundance-horseback.jpg",
+      "originalSize": 333107,
+      "originalWidth": 2000,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-1920.webp",
+          "size": 403886,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-1920.avif",
+          "size": 228022,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-1920.jpg",
+          "size": 435499,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-1200.webp",
+          "size": 204090,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-1200.avif",
+          "size": 126311,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-1200.jpg",
+          "size": 202349,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-800.webp",
+          "size": 102870,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-800.avif",
+          "size": 68537,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-800.jpg",
+          "size": 98210,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-400.webp",
+          "size": 27302,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-400.avif",
+          "size": 18244,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-400.jpg",
+          "size": 25590,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance-horseback-orig.webp",
+          "size": 404636,
+          "width": 2000,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "sundance_summer.jpg",
+      "originalSize": 82422,
+      "originalWidth": 1054,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\sundance_summer-800.webp",
+          "size": 69008,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance_summer-800.avif",
+          "size": 42758,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance_summer-800.jpg",
+          "size": 74537,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance_summer-400.webp",
+          "size": 23648,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance_summer-400.avif",
+          "size": 14869,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance_summer-400.jpg",
+          "size": 22771,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\sundance_summer-orig.webp",
+          "size": 92368,
+          "width": 1054,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "thailand cityscape - night.jpg",
+      "originalSize": 79602,
+      "originalWidth": 612,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape---night-400.webp",
+          "size": 28620,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape---night-400.avif",
+          "size": 26322,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape---night-400.jpg",
+          "size": 27903,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape---night-orig.webp",
+          "size": 66496,
+          "width": 612,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "thailand cityscape - night2.jpg",
+      "originalSize": 81208,
+      "originalWidth": 612,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape---night2-400.webp",
+          "size": 31842,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape---night2-400.avif",
+          "size": 28402,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape---night2-400.jpg",
+          "size": 30463,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape---night2-orig.webp",
+          "size": 65674,
+          "width": 612,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "thailand cityscape 2.jpg",
+      "originalSize": 67939,
+      "originalWidth": 612,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape-2-400.webp",
+          "size": 27058,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape-2-400.avif",
+          "size": 20927,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape-2-400.jpg",
+          "size": 26966,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape-2-orig.webp",
+          "size": 55790,
+          "width": 612,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "thailand cityscape.jpg",
+      "originalSize": 69092,
+      "originalWidth": 612,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape-400.webp",
+          "size": 25888,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape-400.avif",
+          "size": 20816,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape-400.jpg",
+          "size": 24590,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\thailand-cityscape-orig.webp",
+          "size": 59448,
+          "width": 612,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "tubing-1.jpg",
+      "originalSize": 21849,
+      "originalWidth": 466,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\tubing-1-400.webp",
+          "size": 18572,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\tubing-1-400.avif",
+          "size": 11425,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\tubing-1-400.jpg",
+          "size": 23709,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\tubing-1-orig.webp",
+          "size": 21926,
+          "width": 466,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "wedding-1.webp",
+      "originalSize": 14666,
+      "originalWidth": 300,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\wedding-1-orig.webp",
+          "size": 15336,
+          "width": 300,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "file": "winter camping-1.jpg",
+      "originalSize": 453592,
+      "originalWidth": 2044,
+      "outputs": [
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-1920.webp",
+          "size": 188436,
+          "width": 1920,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-1920.avif",
+          "size": 113600,
+          "width": 1920,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-1920.jpg",
+          "size": 229744,
+          "width": 1920,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-1200.webp",
+          "size": 92168,
+          "width": 1200,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-1200.avif",
+          "size": 56597,
+          "width": 1200,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-1200.jpg",
+          "size": 103798,
+          "width": 1200,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-800.webp",
+          "size": 45660,
+          "width": 800,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-800.avif",
+          "size": 28983,
+          "width": 800,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-800.jpg",
+          "size": 50266,
+          "width": 800,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-400.webp",
+          "size": 13130,
+          "width": 400,
+          "format": "webp"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-400.avif",
+          "size": 8951,
+          "width": 400,
+          "format": "avif"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-400.jpg",
+          "size": 14348,
+          "width": 400,
+          "format": "jpg"
+        },
+        {
+          "path": "images\\canva\\optimized\\winter-camping-1-orig.webp",
+          "size": 215694,
+          "width": 2044,
+          "format": "webp"
+        }
+      ]
+    }
+  ]
+}

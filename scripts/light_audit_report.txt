@@ -1,0 +1,67 @@
+Lightweight HTML Audit Report
+Base: C:\Users\grego\Documents\SEAL Enterprises\Website Code\seal-site\V1
+Files scanned: 61
+
+- about.html: imgs=1, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- about.original.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- components.html: imgs=4, missing_alt=0, empty_alt=0, h1=2, meta_desc=False, canonical=False
+- contact.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- contact.original.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\About CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Afinity CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\carousel CSS (only).htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Carousel CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Contact CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\CSS only carousel.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\CSS Styling for Navigation.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\CSS with Auto‑Play Keyframes.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\CSS‑Only Carousel with Auto‑Play + Pause on Hover.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\CSS‑Only Carousel with Auto‑Play.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Enhanced Carousel (CSS).htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Enhanced Carousel (HTML + CSS + JS).htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Families CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Footer CSS.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Hero CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\How-It-Works CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Lead Magnet CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Navigation CSS.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\Responsive Hero Class - (CSS Utility Class).htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\retirees CSS.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\styles.css.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- css\testimonials css.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- Enhanced Carousel (JS).htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- families.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- featured-cruises (HTML).htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- groups.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- Hero Section.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- how-It-works.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- incentives.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- index-modern.html: imgs=9, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=False
+- Index.html: imgs=18, missing_alt=0, empty_alt=0, h1=2, meta_desc=True, canonical=True
+- Index.merged.html: imgs=9, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- Index.original.html: imgs=9, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- lead-magnet ((HTML).htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- live-seal-home.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=True, canonical=True
+- Navigation Bar.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- resources.htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- retirees.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- scaffold-pages\about.html: imgs=1, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- scaffold-pages\contact.html: imgs=1, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- scaffold-pages\families.html: imgs=1, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- scaffold-pages\groups.html: imgs=1, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- scaffold-pages\how-it-works.html: imgs=1, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- scaffold-pages\incentives.html: imgs=1, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- scaffold-pages\pickleball-passport.html: imgs=6, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=False
+- scaffold-pages\pickleball-passport.original.html: imgs=6, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=False
+- scaffold-pages\resources.html: imgs=1, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- scaffold-pages\retirees.html: imgs=1, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- scaffold-pages\thank-you.html: imgs=0, missing_alt=0, empty_alt=0, h1=1, meta_desc=True, canonical=True
+- site-Footer (HTML).htm: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- social\instagram.html: imgs=3, missing_alt=0, empty_alt=0, h1=1, meta_desc=False, canonical=False
+- social\instagram.original.html: imgs=1, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- social\linkedin.html: imgs=0, missing_alt=0, empty_alt=0, h1=1, meta_desc=False, canonical=False
+- social\pinterest.html: imgs=3, missing_alt=0, empty_alt=0, h1=1, meta_desc=False, canonical=False
+- social\pinterest.original.html: imgs=1, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+- Testimonials Section.html: imgs=0, missing_alt=0, empty_alt=0, h1=0, meta_desc=False, canonical=False
+
+Total distinct missing referenced image paths: 0

@@ -1,0 +1,61 @@
+SEAL Site — Consolidated Export
+Date: 2025-12-17
+
+Purpose
+- Single-file reference of all work performed in the `V1` workspace to review later.
+
+High-level summary
+- Parsed live site and merged authoritative SEO/JSON-LD into `Index.html` (backup at `Index.original.html`).
+- Built component library (`components.html` + `css/components.css`) and started replacing header/footer/hero across pages (backups created as `.original.html`).
+- Downloaded many Wix/Gamma CDN images into `images/` and created a Canva originals folder at `images/canva/originals/`.
+- Created `scripts/webopt_canva.py` to produce JPEG + WebP optimized outputs from Canva originals; script exists but was not completed due to a cancelled run.
+- Created pickled scaffold page `scaffold-pages/pickleball-passport.html` with responsive <picture> markup and Calendly CTA.
+
+Files created or modified (not exhaustive, key items)
+- Index.merged.html (merge candidate)
+- Index.original.html (backup)
+- Index.html (merged authoritative SEO + content)
+- components.html (component snippets)
+- css/components.css (component styles)
+- scripts/webopt_canva.py (Pillow-based image optimizer)
+- images/ (many live assets downloaded from Wix/Gamma)
+- images/canva/originals/ (Canva source files)
+- images/canva/alt-texts.csv/alt-texts.csv (CSV with alt text for hero + pickleball images)
+- scaffold-pages/pickleball-passport.html (patched with Gamma copy + responsive images)
+- about.original.html (backup)
+- about.html (patched to include canonical header/footer and link to css/components.css)
+- contact.original.html (backup created just now)
+
+Where the export lives
+- File path: V1/EXPORT_WORK_SUMMARY_2025-12-17.txt (this file)
+
+How to produce the web-optimized images (if you want to run locally)
+- Requirements: Python 3.8+, pip, Pillow.
+- From the `V1` folder, run:
+
+PowerShell
+```powershell
+python -m pip install --user --upgrade pip
+python -m pip install --user pillow
+# run the optimizer script (adjust path if needed)
+python .\scripts\webopt_canva.py
+```
+
+Notes & expectations from the script
+- Inputs: files under `images/canva/originals/` (script matches by substring to map filenames).
+- Outputs: `images/canva/hero-home.jpg`, `hero-home.webp`, `hero-pickleball.jpg`, `hero-pickleball.webp`, `pickleball-1.jpg`/`.webp`, etc.
+- Quality: JPEG ~75, WebP created alongside JPEG.
+- If any CDN-original assets returned AccessDenied, manually download via browser and place in `images/`.
+
+Next recommended steps
+1. Run `scripts/webopt_canva.py` to generate optimized images and verify they appear in `images/canva/`.
+2. Continue replacing header/footer/hero on the remaining pages (create `.original.html` backups before each overwrite).
+3. Run accessibility and SEO checks (axe / Lighthouse) and address findings.
+
+Contact points and authoritative data included
+- The merged `Index.html` contains JSON-LD with Organization/localBusiness contact details (phone +1 (813) 951-6491) and canonical metadata.
+
+If you'd like
+- I can (A) run the optimizer now and update pages to point to the generated images, or (B) produce a smaller PDF export of this summary. Tell me which.
+
+End of export.

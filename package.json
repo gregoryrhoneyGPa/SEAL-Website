@@ -1,0 +1,14 @@
+{
+  "name": "seal-site-utils",
+  "version": "1.0.0",
+  "description": "Utilities for optimizing site images",
+  "main": "tools/image-optimize.js",
+  "scripts": {
+    "optimize": "node tools/image-optimize.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.32.0"
+  }
+}
