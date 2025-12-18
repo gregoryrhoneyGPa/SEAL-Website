@@ -1,10 +1,10 @@
 Param(
-  [string]$Host = "http://localhost:8000",
+  [string]$TargetHost = "http://localhost:8000",
   [string]$OutDir = ".",
   [switch]$Desktop
 )
 
-Write-Output "Serving ./ via http-server on port 8000 (if not already running) and running Lighthouse against $Host"
+Write-Output "Serving ./ via http-server on port 8000 (if not already running) and running Lighthouse against $TargetHost"
 
 # Start a simple static server if not already available
 $serverCmd = "npx http-server -p 8000 ./"
@@ -27,7 +27,7 @@ Start-Process -NoNewWindow -FilePath "npx" -ArgumentList "http-server -p 8000 ./
 Start-Sleep -Seconds 2
 
 Write-Output "Running Lighthouse..."
-$lhArgs = "$Host --output html --output json --output-path $outHtml $preset"
+$lhArgs = "$TargetHost --output html --output json --output-path $outHtml $preset"
 # Use npx to run lighthouse so global install isn't required
 Start-Process -NoNewWindow -FilePath "npx" -ArgumentList "lighthouse $lhArgs" -Wait
 

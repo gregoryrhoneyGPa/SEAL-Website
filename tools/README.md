@@ -20,12 +20,12 @@ Requires Node.js and npm.
 
 Usage (PowerShell):
 
-.\tools\run-lighthouse.ps1 -Host "http://localhost:8000" -OutDir "." -Desktop
+.\tools\run-lighthouse.ps1 -TargetHost "http://localhost:8000" -OutDir "." -Desktop
 
 What it does:
 - Uses `npx http-server` to serve the `V1` folder on port 8000 (temporary)
-- Runs `npx lighthouse` against the provided host and writes HTML+JSON outputs to `OutDir`
+ - Runs `npx lighthouse` against the provided host and writes HTML+JSON outputs to `OutDir`
 
 Notes:
 - Running `npx` will download packages if not cached. Ensure Node is installed.
-- If you prefer to serve the site separately, start your server and run the script with `-Host` set accordingly.
+ - If you prefer to serve the site separately, start your server and run the script with `-TargetHost` set accordingly.
