@@ -1,7 +1,8 @@
 Param(
   [string]$TargetHost = "http://localhost:8000",
   [string]$OutDir = ".",
-  [switch]$Desktop
+  [switch]$Desktop,
+  [string]$ChromePath
 )
 
 Write-Output "Serving ./ via http-server on port 8000 (if not already running) and running Lighthouse against $TargetHost"
@@ -28,9 +29,31 @@ Start-Process -FilePath "cmd.exe" -ArgumentList '/c', 'npx', 'http-server', '-p'
 Start-Sleep -Seconds 2
 
 Write-Output "Running Lighthouse..."
+
+# Auto-detect Chrome path if not provided (common install locations)
+if (-not $ChromePath -or $ChromePath -eq "") {
+  $common = @(
+    'C:\Program Files\Google\Chrome\Application\chrome.exe',
+    "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe",
+    'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+  )
+  foreach ($p in $common) {
+    if (Test-Path $p) { $ChromePath = $p; break }
+  }
+}
+
 # Build argument array to avoid quoting issues
 $lhArgsArr = @('/c', 'npx', 'lighthouse', $TargetHost, '--output', 'html', '--output', 'json', '--output-path', $outHtml)
 if ($preset -ne "") { $lhArgsArr += $preset }
+
+# If we have a Chrome path, instruct Lighthouse to use it
+if ($ChromePath -and (Test-Path $ChromePath)) {
+  $lhArgsArr += '--chrome-path'
+  $lhArgsArr += $ChromePath
+  Write-Output "Using Chrome at: $ChromePath"
+} else {
+  Write-Output "No explicit Chrome path found; Lighthouse will choose a Chromium browser (Edge may be used)."
+}
 
 # Run lighthouse and wait for completion
 Start-Process -FilePath "cmd.exe" -ArgumentList $lhArgsArr -Wait -WindowStyle Hidden

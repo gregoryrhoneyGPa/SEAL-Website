@@ -20,7 +20,11 @@ Requires Node.js and npm.
 
 Usage (PowerShell):
 
+.
 .\tools\run-lighthouse.ps1 -TargetHost "http://localhost:8000" -OutDir "." -Desktop
+or to force Chrome explicitly:
+
+.\tools\run-lighthouse.ps1 -TargetHost "http://localhost:8000" -OutDir "." -Desktop -ChromePath "C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 What it does:
 - Uses `npx http-server` to serve the `V1` folder on port 8000 (temporary)
@@ -29,3 +33,4 @@ What it does:
 Notes:
 - Running `npx` will download packages if not cached. Ensure Node is installed.
  - If you prefer to serve the site separately, start your server and run the script with `-TargetHost` set accordingly.
+ - To force Lighthouse to use Google Chrome instead of Edge, add `-ChromePath` with the full path to `chrome.exe`. The script will also try common install locations if you omit `-ChromePath`.
