@@ -30,4 +30,17 @@
     <p>&copy; Sea, Air, Land Enterprises</p>
   </footer>
 </body>
+<script id="deferred-third-party-loader">
+(function(){
+  try{ if(navigator.doNotTrack==='1' || window.doNotTrack==='1') return; }catch(e){}
+  var items=[
+    {test:function(){return !window.gtag && !window.dataLayer;}, src:'https://www.googletagmanager.com/gtag/js?id=G-KHZNC1Q6K0', async:true},
+    {test:function(){return !window.gapi;}, src:'https://apis.google.com/js/platform.js', async:true}
+  ];
+  function load(s){var t=document.createElement('script'); t.src=s.src; if(s.async) t.async=true; t.crossOrigin='anonymous'; document.head.appendChild(t);}
+  function boot(){items.forEach(function(s){try{ if(s.test()) load(s);}catch(e){}});} 
+  if('requestIdleCallback' in window) requestIdleCallback(boot,{timeout:2000}); else window.addEventListener('load',function(){setTimeout(boot,1500);});
+})();
+</script>
+</body>
 </html>
