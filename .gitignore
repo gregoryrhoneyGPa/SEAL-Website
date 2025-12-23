@@ -363,3 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 rclone.exe
 seal-site-V1.zip
+
+# Local Netlify folder
+.netlify
