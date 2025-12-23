@@ -1,0 +1,87 @@
+SEAL — Full Day Export
+Date: 2025-12-17
+
+Overview
+This file consolidates all work performed earlier today in the `V1` workspace so you can review it tomorrow.
+
+Key outcomes
+- Merged authoritative SEO / JSON-LD into `Index.html` (backup at `Index.original.html`).
+- Built component snippets and styles: `components.html` + `css/components.css`.
+- Began replacing header/footer/hero across pages; created `.original.html` backups for edited pages (e.g., `about.original.html`, `contact.original.html`).
+- Downloaded many live Wix/Gamma CDN images into `images/` and collected Canva source exports at `images/canva/originals/`.
+- Created `scripts/webopt_canva.py` (Pillow-based) and a debug helper `scripts/webopt_canva_debug.py` to produce web-optimized JPEG + WebP files; added robust fallback behavior to `webopt_canva.py`.
+- Created scaffold page `scaffold-pages/pickleball-passport.html` with responsive `<picture>` markup, Calendly CTA, and local image references.
+- Created an alt-text CSV at `images/canva/alt-texts.csv/alt-texts.csv` for the hero + pickleball images.
+- Export files created today:
+  - `V1/EXPORT_WORK_SUMMARY_2025-12-17.txt` (short summary)
+  - `V1/EXPORT_FULL_2025-12-17.txt` (this file)
+
+Files changed/created (key list)
+- Index.html (overwritten with merged authoritative headers/JSON-LD)
+- Index.original.html (backup)
+- components.html (component snippets)
+- css/components.css (component styles)
+- about.html (patched to include canonical header/footer; backup: `about.original.html`)
+- about.original.html
+- contact.original.html (backup; small header snippet inserted)
+- scaffold-pages/pickleball-passport.html
+- images/ (many downloaded CDN images)
+- images/canva/originals/ (Canva source files; see below file listing)
+- images/canva/alt-texts.csv/alt-texts.csv
+- scripts/webopt_canva.py (image optimizer; added fallback copy behavior)
+- scripts/webopt_canva_debug.py (diagnostic script)
+
+Canva originals (representative listing)
+- Home Page cover image.png
+- phuket beach.jpg
+- phuket beach2.jpg
+- pickleball 1.jpg
+- pickleball 2.jpg
+- pickleball 4.jpg
+- mediterranean-1.jpg
+- plus many other AVIF/WEBP/JPEG files under `images/canva/originals/`.
+
+Script: `scripts/webopt_canva.py` (summary)
+- Purpose: match source originals by substring, resize to target sizes, write `.jpg` and `.webp` outputs into `images/canva/`.
+- Mappings (source substring -> output base -> size):
+  - "Home Page cover image" -> `hero-home` (1600x900)
+  - "phuket beach2" -> `hero-pickleball` (1600x900)
+  - "pickleball 1" -> `pickleball-1` (1200x800)
+  - "pickleball 2" -> `pickleball-2` (1200x800)
+  - "pickleball 4" -> `pickleball-3` (1200x800)
+- Behavior: uses Pillow if available; if Pillow is missing or an error occurs, fallback copies the source file to the target names so there is at least a local file to reference.
+
+How to run the optimizer locally
+Requirements: Python 3.8+ and `pip`.
+
+PowerShell commands (from `V1` folder):
+
+```powershell
+python -m pip install --user --upgrade pip
+python -m pip install --user pillow
+python .\scripts\webopt_canva.py
+```
+
+If you prefer a dry-run that prints found sources and attempts one test save, run:
+
+```powershell
+python .\scripts\webopt_canva_debug.py
+```
+
+Notes about earlier run
+- I attempted to run `webopt_canva.py` earlier; the script executed but initially produced no outputs because the run environment didn't write files. I added diagnostics, ran a debug script, and patched `webopt_canva.py` to add fallback copying. If you run it now it should create target files (either properly converted with Pillow or by copying originals).
+- A few CDN image URLs previously returned AccessDenied — those require manual browser download into `images/` if needed.
+
+Backups
+- Before any page overwrite I saved a `.original.html` backup in the same folder (e.g., `Index.original.html`, `about.original.html`, `contact.original.html`). Use those to revert if needed.
+
+Next recommended steps
+1. Run `scripts/webopt_canva.py` to generate optimized images into `images/canva/`.
+2. Verify generated files exist and have expected dimensions; adjust mapping or sizes if necessary.
+3. Update pages to reference the optimized local images (create `.original.html` backups before editing). Pages to update: homepage, `scaffold-pages/pickleball-passport.html`, `about.html`, others.
+4. Run accessibility/SEO checks (Lighthouse/axe) and fix issues.
+
+If you want me to proceed now
+- I can (A) run the optimizer and then update the site files to reference the new images, or (B) generate a PDF export of this file and previous summary. Tell me which action to take next.
+
+End of export

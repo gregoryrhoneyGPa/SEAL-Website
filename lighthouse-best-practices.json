@@ -1,0 +1,114 @@
+{
+  "best-practices": {
+    "title": "Best Practices",
+    "supportedModes": [
+      "navigation",
+      "timespan",
+      "snapshot"
+    ],
+    "auditRefs": [
+      {
+        "id": "is-on-https",
+        "weight": 5,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "redirects-http",
+        "weight": 0,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "geolocation-on-start",
+        "weight": 1,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "notification-on-start",
+        "weight": 1,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "csp-xss",
+        "weight": 0,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "has-hsts",
+        "weight": 0,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "origin-isolation",
+        "weight": 0,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "clickjacking-mitigation",
+        "weight": 0,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "trusted-types-xss",
+        "weight": 0,
+        "group": "best-practices-trust-safety"
+      },
+      {
+        "id": "paste-preventing-inputs",
+        "weight": 3,
+        "group": "best-practices-ux"
+      },
+      {
+        "id": "image-aspect-ratio",
+        "weight": 1,
+        "group": "best-practices-ux"
+      },
+      {
+        "id": "image-size-responsive",
+        "weight": 1,
+        "group": "best-practices-ux"
+      },
+      {
+        "id": "doctype",
+        "weight": 1,
+        "group": "best-practices-browser-compat"
+      },
+      {
+        "id": "charset",
+        "weight": 1,
+        "group": "best-practices-browser-compat"
+      },
+      {
+        "id": "js-libraries",
+        "weight": 0,
+        "group": "best-practices-general"
+      },
+      {
+        "id": "deprecations",
+        "weight": 5,
+        "group": "best-practices-general"
+      },
+      {
+        "id": "third-party-cookies",
+        "weight": 5,
+        "group": "best-practices-general"
+      },
+      {
+        "id": "errors-in-console",
+        "weight": 1,
+        "group": "best-practices-general"
+      },
+      {
+        "id": "valid-source-maps",
+        "weight": 0,
+        "group": "best-practices-general"
+      },
+      {
+        "id": "inspector-issues",
+        "weight": 1,
+        "group": "best-practices-general"
+      }
+    ],
+    "id": "best-practices",
+    "score": 0.96
+  }
+}

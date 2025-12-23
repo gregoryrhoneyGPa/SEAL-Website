@@ -1,0 +1,39 @@
+Remaining non-optimized `images/canva/` references
+===============================================
+
+Files with references to non-`optimized/` image paths (review/next steps):
+
+- scaffold-pages/pickleball-passport.html
+  - `../images/canva/pickleball-3.webp`
+  - `../images/canva/pickleball-3.jpg`
+  - Action: run `scripts/webopt_canva.py` (or your Node-based optimizer) to generate optimized variants for `pickleball-3` (1200x800) into `images/canva/optimized/`.
+
+- scaffold-pages/pickleball-passport.original.html (backup copy)
+  - references `hero-pickleball.jpg` and `pickleball-3.jpg` — this is a preserved original; no change required unless you want backups updated.
+
+- V2/instructions/SCRIPTS_README.md and EXPORT_*.txt
+  - documentation mentions `images/canva/hero-home.webp` or similar; these are docs only and not urgent.
+
+Recommended commands to generate missing optimized assets (run locally):
+
+1) Using the included Python helper (requires Pillow):
+
+   python scripts/webopt_canva.py
+
+   - This will read `images/canva/originals/` and write `.jpg` and `.webp` outputs into `images/canva/` (names per mapping).
+
+2) Or run the Node image optimizer you used earlier (if you prefer AVIF variants):
+
+   npm run optimize
+
+   - This writes AVIF/WebP/JPG variants into `images/canva/optimized/` and updates `report.json`.
+
+After generating optimized files, re-run the repo-wide replacement step (I can do this) to convert the remaining raw references to responsive `picture` markup pointing at `images/canva/optimized/` and commit changes.
+
+If you want me to proceed now, I will:
+ - generate a list of files I will update,
+ - create backups for each file edited,
+ - replace references only when the optimized asset exists,
+ - commit changes incrementally and report results.
+
+Timestamp: 2025-12-18T12:01:00-07:00

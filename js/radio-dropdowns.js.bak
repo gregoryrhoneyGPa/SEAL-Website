@@ -1,0 +1,17 @@
+// radio-dropdowns.js (backup)
+document.addEventListener('DOMContentLoaded', function(){
+  const radios = document.querySelectorAll('input[name="rd-filter"]');
+  const menus = document.querySelectorAll('.rd-menu');
+  function setActive(value){
+    menus.forEach(m => {
+      const isActive = m.id === 'rd-' + value;
+      m.setAttribute('aria-hidden', String(!isActive));
+    });
+  }
+  radios.forEach(r => {
+    r.addEventListener('change', function(e){ if(this.checked) setActive(this.value); });
+  });
+  // init
+  const init = document.querySelector('input[name="rd-filter"]:checked');
+  if(init) setActive(init.value);
+});

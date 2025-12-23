@@ -1,0 +1,28 @@
+{
+  "name": "seal-site-utils",
+  "version": "1.0.0",
+  "description": "Utilities for optimizing site images",
+  "main": "tools/image-optimize.js",
+  "scripts": {
+    "optimize": "node tools/image-optimize.js",
+    "serve": "npx http-server -c-1 . -p 8000",
+    "capture:blocked": "node capture_playwright.js",
+    "test:ga": "node ga-smoke.js",
+    "ci:ga": "start-server-and-test 'npx http-server -c-1 . -p 8000' http://localhost:8000 'node ga-smoke.js http://localhost:8000'"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.32.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {
+    "playwright": "^1.57.0",
+    "start-server-and-test": "^1.14.0"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}

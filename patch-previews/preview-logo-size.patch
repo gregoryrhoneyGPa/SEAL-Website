@@ -1,0 +1,11 @@
+*** Begin Patch
+*** Update File: Index.html
+@@
+-			<a href="Index.html" class="logo">
+-				<img src="images/seal-logo-horizontal.png" alt="SEAL Logo" / loading="lazy">
++			<a href="Index.html" class="logo">
++				<picture>
++				  <source srcset="images/canva/optimized/seal-logo-horizontal-280w.webp" type="image/webp">
++				  <img src="images/seal-logo-horizontal.png" alt="SEAL Logo" width="280" height="60" loading="lazy">
++				</picture>
+*** End Patch
