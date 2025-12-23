@@ -60,6 +60,12 @@ html,body{height:100%;margin:0;font-family:Inter,Arial,Helvetica,sans-serif;colo
 .footer-logo{height:32px}
 .footer-bottom{border-top:1px solid #eaeaea;margin-top:1rem;padding-top:1rem;text-align:center}
 
+/* Social icons */
+.social-icons{display:flex;gap:0.75rem;margin-top:0.5rem}
+.social-icons a{display:inline-block;width:28px;height:28px}
+.social-icons img{width:28px;height:28px;display:block}
+.social-icons svg{width:28px;height:28px;display:block}
+
 /* Accessibility */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
