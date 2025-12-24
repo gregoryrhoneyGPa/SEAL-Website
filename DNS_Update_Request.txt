@@ -1,0 +1,40 @@
+Subject: DNS Update Request for sealenterprise.net
+
+Hi,
+
+I need to update the DNS records for sealenterprise.net to point to my new GitHub Pages hosting. Please make the following changes:
+
+REMOVE the existing A record that currently points to 66.223.49.89
+
+ADD these four new A records:
+
+Type: A
+Host/Name: @ (or root/apex domain)
+Value/Points to: 185.199.108.153
+TTL: 3600 (or default)
+
+Type: A
+Host/Name: @
+Value/Points to: 185.199.109.153
+TTL: 3600
+
+Type: A
+Host/Name: @
+Value/Points to: 185.199.110.153
+TTL: 3600
+
+Type: A
+Host/Name: @
+Value/Points to: 185.199.111.153
+TTL: 3600
+
+OPTIONAL - WWW subdomain (recommended):
+
+Type: CNAME
+Host/Name: www
+Value/Points to: gregoryrhoneygpa.github.io
+TTL: 3600
+
+These are the official GitHub Pages IP addresses for custom domain hosting. Please let me know once the changes are complete so I can verify the DNS propagation.
+
+Thank you!
