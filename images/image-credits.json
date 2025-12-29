@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "filename": "hero-cruise-ship.jpg",
+      "path": "images/cruise-lines/royal-caribbean/hero-cruise-ship.jpg",
+      "credit": "Royal Caribbean International",
+      "creditUrl": "https://www.royalcaribbean.com",
+      "altText": "Luxury cruise ship at sunset",
+      "usage": ["index.html - hero section"],
+      "license": "Cruise line partner media"
+    },
+    {
+      "filename": "family-pool.jpg",
+      "path": "images/unsplash/family-pool.jpg",
+      "credit": "Photo by John Doe",
+      "creditUrl": "https://unsplash.com/@johndoe",
+      "altText": "Family enjoying cruise ship pool",
+      "usage": ["families.html - hero section"],
+      "license": "Unsplash License",
+      "unsplashId": "abc123xyz"
+    }
+  ],
+  "instructions": {
+    "cruise_line_images": "Images provided by cruise line partners. Logos embedded in images are property of respective cruise lines.",
+    "unsplash_images": "Free to use under Unsplash License. Credit photographer when possible.",
+    "attribution_required": true,
+    "attribution_method": "Footer credits page or image caption/alt text"
+  }
+}

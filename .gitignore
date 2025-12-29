@@ -3,6 +3,21 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Gmail OAuth credentials (IMPORTANT: Keep these private!)
+credentials.json
+token.json
+
+# Email configuration (IMPORTANT: Keep this private!)
+email_config.txt
+
+# Contact form data
+docs/contact_submissions.xlsx
+
+# Server runtime files
+server_startup.log
+.flask_pid
+.http_pid
+
 # User-specific files
 *.rsuser
 *.suo

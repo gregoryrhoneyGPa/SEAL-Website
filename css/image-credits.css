@@ -1,0 +1,89 @@
+/* Image Credit Styles */
+
+.image-credit {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.image-credit a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.image-credit a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Overlay credit (for hero images) */
+.hero-image-container {
+  position: relative;
+}
+
+.hero-image-container .image-credit {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.7rem;
+  z-index: 10;
+}
+
+/* Gallery credit (beneath images) */
+.gallery-item .image-credit {
+  background: transparent;
+  color: #666;
+  padding: 0.5rem 0;
+  display: block;
+  text-align: center;
+}
+
+.gallery-item .image-credit a {
+  color: #0066cc;
+}
+
+/* Footer credits section */
+.image-credits-footer {
+  background: #f8f9fa;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.image-credits-footer h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.image-credits-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.image-credits-footer li {
+  margin-bottom: 0.5rem;
+  break-inside: avoid;
+}
+
+@media (max-width: 768px) {
+  .hero-image-container .image-credit {
+    bottom: 0.5rem;
+    right: 0.5rem;
+    font-size: 0.65rem;
+  }
+  
+  .image-credits-footer ul {
+    columns: 1;
+  }
+}
