@@ -69,22 +69,48 @@
 
   <main>
     <section class="hero pickleball-hero">
+      <style>
+        .pickleball-hero .container {
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          gap: 2rem !important;
+          flex-wrap: wrap !important;
+        }
+        .pickleball-hero .hero-media {
+          order: 1 !important;
+          flex: 0 0 500px !important;
+          max-width: 500px !important;
+          min-width: 300px;
+          width: auto !important;
+        }
+        .pickleball-hero .text-content {
+          flex: 1 1 300px !important;
+          order: 0 !important;
+        }
+        @media (max-width: 768px) {
+          .pickleball-hero .container {
+            flex-direction: column !important;
+          }
+          .pickleball-hero .hero-media {
+            order: 1 !important;
+            max-width: 100% !important;
+          }
+        }
+      </style>
       <div class="container">
-        <h1>Pickleball Passport - Club Trips, Retreats & Revenue Programs</h1>
-        <p class="lead">Turnkey, hosted pickleball travel for clubs: curated itineraries, coaching partnerships, and simple revenue-share programs that reward your members and grow club income.</p>
-
-        <div class="hero-media">
-          <picture>
-            <source type="image/avif" srcset="images/canva/optimized/pickleball-1-400.avif 400w, images/canva/optimized/pickleball-1-800.avif 800w, images/canva/optimized/pickleball-1-1200.avif 1200w" sizes="(max-width:800px) 100vw, 1200px">
-            <source type="image/webp" srcset="images/canva/optimized/pickleball-1-400.webp 400w, images/canva/optimized/pickleball-1-800.webp 800w, images/canva/optimized/pickleball-1-1200.webp 1200w" sizes="(max-width:800px) 100vw, 1200px">
-            <img src="images/canva/optimized/pickleball-1-1200.jpg" alt="Group of pickleball players celebrating on an outdoor court during a trip" width="1200" height="675" loading="lazy" decoding="async">
-          </picture>
+        <div class="text-content">
+          <h1>Pickleball Passport - Club Trips, Retreats & Revenue Programs</h1>
+          <p class="lead">Turnkey, hosted pickleball travel for clubs: curated itineraries, coaching partnerships, and simple revenue-share programs that reward your members and grow club income.</p>
+          <p class="hero-cta">
+            <a class="btn btn-primary" href="https://calendly.com/jaronshop/discovery" target="_blank" rel="noopener" data-ga-category="Engagement" data-ga-action="Click" data-ga-label="Schedule Partner Overview">Schedule a Partner Overview</a>
+            <a class="btn btn-secondary" href="resources.htm" data-ga-category="Engagement" data-ga-action="Click" data-ga-label="Program Overview">Program Overview & Resources</a>
+          </p>
         </div>
 
-        <p class="hero-cta">
-          <a class="btn btn-primary" href="https://calendly.com/jaronshop/discovery" target="_blank" rel="noopener" data-ga-category="Engagement" data-ga-action="Click" data-ga-label="Schedule Partner Overview">Schedule a Partner Overview</a>
-          <a class="btn btn-secondary" href="resources.htm" data-ga-category="Engagement" data-ga-action="Click" data-ga-label="Program Overview">Program Overview & Resources</a>
-        </p>
+        <div class="hero-media">
+          <img src="images/groups/luxe-pickleball-VTKZwNXhaSc-unsplash.jpg" alt="Pickleball players enjoying a match" width="500" height="333" loading="eager" decoding="async" style="width: 100%; height: auto; border-radius: 8px; display: block;">
+        </div>
       </div>
     </section>
 
