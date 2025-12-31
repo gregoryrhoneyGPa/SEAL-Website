@@ -1,0 +1,15 @@
+# FORA Travel Guides Configuration
+# Copy this file to fora_guides_config.txt and fill in your credentials
+
+# FORA Login Credentials
+FORA_USERNAME=your-fora-email@example.com
+FORA_PASSWORD=your-fora-password
+FORA_ADVISOR_ID=gregory-rhoney
+
+# Content Fetching
+# Set to True to fetch full content from FORA URLs (requires login)
+# Set to False to create preview pages with links to FORA
+FETCH_FORA_CONTENT=True
+
+# Output Settings
+OUTPUT_DIR=travel-guides

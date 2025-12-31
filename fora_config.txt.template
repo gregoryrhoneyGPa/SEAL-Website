@@ -1,0 +1,23 @@
+# FORA Access Configuration
+# Copy this file to fora_config.txt and fill in your credentials
+# DO NOT commit fora_config.txt to version control
+
+# FORA Login Credentials
+FORA_USERNAME=your-fora-username
+FORA_PASSWORD=your-fora-password
+FORA_ADVISOR_ID=gregory-rhoney
+
+# FORA API/Portal URL (update with actual endpoint)
+FORA_BASE_URL=https://www.foratravel.com
+FORA_LOGIN_URL=https://www.foratravel.com/login
+FORA_MAGIC_GUIDES_URL=https://www.foratravel.com/resources/magic-guides
+
+# Mailchimp Configuration
+MAILCHIMP_API_KEY=your-mailchimp-api-key-here
+MAILCHIMP_SERVER_PREFIX=us21
+MAILCHIMP_LIST_ID=your-audience-list-id
+
+# Update Settings
+CHECK_INTERVAL_HOURS=24
+AUTO_PUBLISH_TO_WEBSITE=True
+AUTO_SEND_TO_MAILCHIMP=False

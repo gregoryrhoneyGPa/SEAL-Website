@@ -1,0 +1,11 @@
+# FORA Access Configuration
+FORA_USERNAME=gregory.rhoney@fora.travel
+FORA_PASSWORD=BrenSheaElEv632!
+FORA_ADVISOR_ID=gregory-rhoney
+FORA_BASE_URL=https://advisor.fora.travel
+
+# Fetch full content from FORA URLs (requires login)
+FETCH_FORA_CONTENT=True
+
+# Output Settings
+OUTPUT_DIR=travel-guides

@@ -1,0 +1,15 @@
+# Mailchimp Configuration
+# Store your Mailchimp credentials here
+
+MAILCHIMP_USERNAME=gregory.rhoney@fora.travel
+MAILCHIMP_PASSWORD=BrenShea632!
+
+# Mailchimp API Key (generate from: https://admin.mailchimp.com/account/api/)
+# Navigate to: Account → Extras → API keys → Create A Key
+MAILCHIMP_API_KEY=YOUR_MAILCHIMP_API_KEY_HERE
+
+# Mailchimp Server Prefix (e.g., us1, us2, etc. - found in your API key after the dash)
+MAILCHIMP_SERVER=us2
+
+# List IDs (find at: Audience → Settings → Audience name and defaults)
+MAILCHIMP_AUDIENCE_ID=your-audience-id-here

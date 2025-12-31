@@ -1,0 +1,1741 @@
+
+<!-- FORA Travel Guides Section - Generated 2025-12-31 09:41 -->
+<section style="margin: 3rem 0; padding: 2rem; background: #f8f9fa; border-radius: 8px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+        <h2 style="margin: 0;">Travel Guides</h2>
+        <a href="https://docs.google.com/spreadsheets/d/1ub19wcmOEBmD82Gr05Qw_0Zmn5klXtxxy6ZOBxhyqmQ/edit" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           style="font-size: 0.9rem; color: #2c7a7b; text-decoration: none; padding: 0.5rem 1rem; background: white; border-radius: 4px; border: 1px solid #e2e8f0;">
+            📊 Update Database
+        </a>
+    </div>
+    <p style="color: #666; font-size: 0.95rem; margin-bottom: 1.5rem;">
+        Explore 513 expertly curated destination guides powered by FORA Travel. 
+        <strong>Contact me for exclusive access to detailed travel guides.</strong>
+    </p>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">14</div>
+            <div style="font-size: 0.9rem; color: #718096;">Africa</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">1</div>
+            <div style="font-size: 0.9rem; color: #718096;">Antarctica</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">24</div>
+            <div style="font-size: 0.9rem; color: #718096;">Asia</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">13</div>
+            <div style="font-size: 0.9rem; color: #718096;">Caribbean</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">5</div>
+            <div style="font-size: 0.9rem; color: #718096;">Central America</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">146</div>
+            <div style="font-size: 0.9rem; color: #718096;">Europe</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">2</div>
+            <div style="font-size: 0.9rem; color: #718096;">Middle East</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">163</div>
+            <div style="font-size: 0.9rem; color: #718096;">Multiple</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">12</div>
+            <div style="font-size: 0.9rem; color: #718096;">N/A</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">116</div>
+            <div style="font-size: 0.9rem; color: #718096;">North America</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">3</div>
+            <div style="font-size: 0.9rem; color: #718096;">Oceania</div>
+        </div>
+        <div style="padding: 1rem; background: white; border-radius: 6px; text-align: center; border: 2px solid #e2e8f0;">
+            <div style="font-size: 1.5rem; font-weight: bold; color: #2d3748;">14</div>
+            <div style="font-size: 0.9rem; color: #718096;">South America</div>
+        </div>
+    </div>
+    
+    <div style="background: white; padding: 1.5rem; border-radius: 6px; border: 1px solid #e2e8f0;">
+        <p style="color: #4a5568; margin-bottom: 1rem;">
+            <strong>📍 Browse by Destination:</strong> Select a continent to view guides
+        </p>
+        <select id="continentFilter" style="width: 100%; padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 4px; font-size: 1rem; margin-bottom: 1rem;">
+            <option value="all">All Continents ({len(self.guides)} guides)</option>
+            <option value="Africa">Africa (14 guides)</option>
+            <option value="Antarctica">Antarctica (1 guides)</option>
+            <option value="Asia">Asia (24 guides)</option>
+            <option value="Caribbean">Caribbean (13 guides)</option>
+            <option value="Central America">Central America (5 guides)</option>
+            <option value="Europe">Europe (146 guides)</option>
+            <option value="Middle East">Middle East (2 guides)</option>
+            <option value="Multiple">Multiple (163 guides)</option>
+            <option value="N/A">N/A (12 guides)</option>
+            <option value="North America">North America (116 guides)</option>
+            <option value="Oceania">Oceania (3 guides)</option>
+            <option value="South America">South America (14 guides)</option>
+        </select>
+        
+        <div id="guidesList" style="max-height: 400px; overflow-y: auto; padding: 1rem;">
+            <div class="continent-group" data-continent="Africa">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Africa
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Angama Mara (Safari Lodge) Spotlight</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Kenya</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Morocco</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Rwanda</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: South Africa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: South Africa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Four Seasons Properties in Egypt</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Guide to Essaouira, Morocco</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Mount Nelson, A Belmond Hotel, Cape Town</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Marrakech Hotel Round-up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Morocco Hotel Round-up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Morocco Itinerary Ideas</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Places to visit in Morocco</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Reasons to Travel to Egypt</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="Antarctica">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Antarctica
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Antarctica</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="Asia">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Asia
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Japan</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Northern India</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Singapore and Bali</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Thailand</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Tokyo</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Jimbaran Puri, A Belmond Hotel, Bali</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: La Residence D’Angkor, A Belmond Hotel, Siem Riep</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: La Residence Phou Vao, A Belmond Hotel, Luang Praban</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Napasai, A Belmond Hotel, Koh Samui</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels under $500 in Tokyo</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Insider Picks for Hotels under $500 in Kyoto</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Japan hotel round-up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Michelin Key Hotels in Japan</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: NIHI Sumba</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Soneva</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Aman properties in Japan</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Cape Weligama</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Ceylon Tea Trails</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Raya Heritage Chiang Mai</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Rayavadee</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Standard, Huruvalhi Maldives</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Wild Coast Tented Lodge</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The Real-Life Hotel From White Lotus Season 3</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Where to Drink Matcha in Japan: My Top Six Picks</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="Caribbean">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Caribbean
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Anguilla Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Bahamas Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Barbados</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: St. Barth's</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: The Bahamas</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Turks and Caicos</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: O2 Beach Club & Spa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Grace Bay</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Le Manoir de Lorient</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">St. Barths Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">St. Barths Travel Tips</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">St. Kitts & Nevis Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Turks & Caicos Hotel Round-Up</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="Central America">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Central America
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Costa Rica Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Costa Rica</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Dominican Republic</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Rancho Santana</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Río Perdido</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="Europe">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Europe
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">10 European Rooftop Bars with Epic Views</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">10 Underrated European Cities You Can't Miss</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Athens Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Budapest Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Croatia Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Amsterdam</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Amsterdam</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Athens & the Athenian Riviera</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Barcelona</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Central & West London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Central & West London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Croatia</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: European Ski Destinations</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Florence</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Germany & Austria</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Greece Week: Cruises</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Greek Island Hopping</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Ireland</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Ireland</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Italian Lakes</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Madrid</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Madrid</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Nordic Region & the Northern Lights</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Paris</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Paris and Beyond</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Portugal</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Rome</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Sardinia</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Sardinia & Corsica</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Sardinia & Corsica</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Sicily</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Sicily</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Sweden</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: The Amalfi Coast</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: The Balearic Islands</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Tuscany</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Venice as a Gateway</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">European Summer Escapes for Every Vibe</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Everything You Need to Know About the UK ETA</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Favorite Michelin Key Hotels in France</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Favorite Michelin Key Hotels in Italy</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Greece Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: A77 Suites</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: British Pullman, A Belmond Train, England</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Caruso, A Belmond Hotel, Amalfi Coast</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Castello di Casole, a Belmond Hotel, Tuscany</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Cipriani, A Belmond Hotel, Venice</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Gran Hotel Inglés</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Grand Hotel Timeo, A Belmond Hotel, Taormina</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Hartwell House Hotel & Spa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Il Bottaccio, Relais & Châteaux</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: La Residencia, A Belmond Hotel, Mallorca</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Le Manoir aux Quat ’Saisons, A Belmond Hotel, Oxfordshire</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Lignée Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: One Aldwych</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Palazzo Talìa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Pillows Grand Boutique Hotel Maurits at the Park</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Reid’s Palace, A Belmond Hotel, Madeira</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Romazzino, A Belmond Hotel, Costa Smeralda</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Splendido Mare, A Belmond Hotel, Portofino</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Splendido, A Belmond Hotel, Portofino</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: The Cadogan, A Belmond Hotel, London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: The Ned City of London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Villa Margherita, Amalfi Coast</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Villa San Michele, A Belmond Hotel, Florence</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Villa Sant ’Andrea, A Belmond Hotel, Taormina Mare</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: bluegr</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels Under $500 in London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels Under $500 in Paris</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels under $500 in Barcelona</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels under $500 in Florence</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels under $500 in Lisbon</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Insider Picks for Hotels under $500 in Madrid</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Less-Crowded Places to Visit in Europe this Summer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">London Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Michelin Key Hotels in Spain</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Mykonos Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Paris Boutique Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Paris Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Bill & Coo Hotel Mykonos</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Cala Beach Resort</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Canne Bianche</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: College Green Hotel Dublin</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Elounda Beach Hotel & Villas</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: FH55 Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Grecotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Hôtel Providence Paris</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: L'oscar London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: La Fantaisie</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: La Fonda Heritage Hotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Palácio Ludovice</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Parco dei Principi Sorrento</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Relegance Collection</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Savoy Signature</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Sea Containers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Singer Palace Hotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Sublime Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Taskonaklar Hotel Cappadocia</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: The Other House</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: The Zetter</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Viesca Toscana</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Vocabolo Moscatelli</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Portugal Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Prague Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Pre- and post-Olympics travel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Les Domaines de Fontenille</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Red Carnation</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Rocco Forte Knights</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">REEL: Greek Summer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Santorini Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Southern Italy Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Alma Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Botania Relais & Spa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Cali Mykonos</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Casa Angelina</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Castello di Velona Resort, Thermal Spa & Winery</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Chapter Roma</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Château Voltaire</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Donna Carmela Resort & Lodges</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Elizabeth Unique Hotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Faloria</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Flemings Mayfair Hotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Hotel AMANO Covent Garden</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Hotel De’ Ricci</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Hôtel L’Eldorado Paris</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on La Cocumella</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Lungarno Collection</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Lupaia</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Octant Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Palazzo Ripetta</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Palazzo Vecchietti</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Rivoli Boutique Hotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Hoxton, Amsterdam & The Hoxton, Lloyd Amsterdam</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Place Firenze</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Prince Akatoki London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Therasia Resort</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on URSO Hotel & Spa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on the Rosewood London</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight: Martinhal</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The 5 Best Croissants in Paris (And Where to Stay Nearby)</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Top Cities for Study Abroad</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Vienna Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">When to Visit Greece</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Where to Drink Like a Local: Insider Tips for Europe’s Wine Regions</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Where to stay during Taylor Swift's Era's Tour</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="Middle East">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Middle East
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Dubai</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Luxury Travel Programme by Address</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="Multiple">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Multiple
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">10 Tennis Hotels & Villas</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">12 Places to Visit in Fall</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">5 Travel Books for Winter (and Where to Read Them)</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">6 Aman Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">6 Tented Camps to Travel to Now</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">6 Underrated Summer Travel Ideas to Avoid Crowds</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">8 Best Hotel Swimming Pools</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">8 New Airline Routes</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Accessible Travel Getaways</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Adventure Resorts Around the World</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">All-Inclusive Honeymoon Resorts</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">April Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">April Openings</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">April partner roundup</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">August Openings & Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">August Partner Roundup #1</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">August Partner Roundup #2</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Babymoon Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Black-Owned Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Brand Spotlight: Pendry Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Personality Quiz</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Specials to Book Now</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight:
+Scenic</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight:
+Viking Cruises</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight: AmaWaterways</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight: HX & Hurtigruten Expeditions</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight: Lindblad</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight: Regent Seven Seas</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight: Royal Caribbean</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight: Silversea Cruises</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight: Viking Cruises</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cruise Spotlight: Virgin Voyages</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Crusie Spotlight: Crystal</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">December Openings & Renovations to Experience Now</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">December Partner Roundup</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: All-Inclusives</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Cherry Blossom Season</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Cruises</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Destination Spa Travel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Destination Weddings</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Eclipse Travel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Sustainable Travel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Wellness Travel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Eco-Friendly Experiences to Book This Summer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Eco-friendly hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Favorite Residences Around the World</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Favorite hotels from TV</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">February Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">February Openings</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">February Partner Roundup</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Fora Partners</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Fora Perks</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Fora Picks: The Best Villas with Resort Amenities for 2026</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Fora’s Newest Preferred Partnerships</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Harvest Season for Wine Destinations</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels with Gyms</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels with Instagram-Worthy Pools</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">How I Can Make This Your Best Summer Ever</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">In-Room Washers & Dryers: The Luxe Hotel Perk You Didn’t Know You Needed</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Insider Intel on New Flights to Sunny Destinations</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Insider's Guide to Tennis Majors</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Insider's Wave Season Deals</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">January Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">January Openings</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">July 4th Hotel Round Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">July Cruise Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">July Openings & Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">July Openings & Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">July Partner Round-Up #1</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">July Partner Round-Up #2</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">June offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">June openings</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">June partner roundup</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Last-minute ski getaways</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Last-minute sunny getaways</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">March Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">March Openings</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">March partner roundup</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">May Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">May Openings</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">May partner roundup</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Memorial Day Weekend</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Mini-Moon Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">November Hotel Spotlight: From Mexico to the Hudson Valley</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">November Openings & Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">November Partner Roundup</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">October Hotel Spotlight: Design, Heritage & Fresh Debuts</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">October Openings & Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">October Partner Round-up #1</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">October Partner Round-up #2</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Page: One&Only</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Abercrombie & Kent</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: BLADE</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Backroads</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: HVN</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: J.MAK Hospitality</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Mint House</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Project Expedition</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: RhomTrip</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Tauck</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Pet-Friendly Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Profram: Couture by Langham</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Accor Preferred by HERA</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Aman</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: B Signature Diamond Club</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Belmond Bellini Club</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Bravos</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: CoolRooms</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Design Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Dorchester Diamond Club</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Firmdale</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Four Seasons Preferred</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Hilton Impresario</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Hyatt Privé</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: IHG Luxury & Lifestyle</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Jumeirah Passport to Luxury</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Kempinski Club 1897</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Leading Hotels of the World (LHW)</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Mandarin Oriental Fan Club</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Marriott Stars & Luminous</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Noble House</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Oetker Pearl</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Omni Select</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: PenClub</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Preferred Hotels & Resorts Platinum</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Relais & Châteaux</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Rosewood Elite</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: SLH withIN</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Shangri-La Luxury Circle</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Standard Secret Agent</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Virtuoso</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">REEL: Perfect Summer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Round-up of Auberge properties (and perks) in Latin America</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">September Hotel Spotlight: Bold Revivals & Glam Debuts</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">September Openings & Offers</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">September Partner Round-up #1</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">September Partner Round-up #2</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">September Sales Kit (see dedicated Monthly Sales Kits tab)</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Small Hotels (Fewer Than 25 Rooms)</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spa Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Auberge Resorts</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Virgin Voyages</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on the Regent Seven Seas Explorer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Summer Road Trip Ideas</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Summer Spritzes</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Summer Travel Inspiration</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Sustainable travel inspiration</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Sustainable travel tips</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The Beach Club Edit: Where to See and Be Seen this Summer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The Best Hotels for a Trip with the Guys</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Top Trends in Cruising</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Travel Guide to James Beard Award Semifinalist Picks</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Travel Tuesday</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Trending in Travel: 2024's Must-Visit Spots</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Unexpected Honeymoon Destinations</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">What is Wave Season?</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">What’s New in Cruise Travel for 2026</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Wheelchair Accessible Adventures</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Where to Go for Thanksgiving 2025: From Wine Country to the Caribbean</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Where to Go for a Long October Weekend</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Where to Go with Teens This Summer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Where to Watch the 2025 NFL International Games</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Women-owned hotels</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="N/A">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    N/A
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Benefits of Booking with a Cruise Travel Advisor</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Business Cards</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Client Reviews</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Email Signature</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Fora Advisor Overview & FAQs</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Fora Advisor Services</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">I've Joined Fora - Social Badge</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Just Booked</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Promote Your Favorite Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Promote Your Fora Guides</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Reasons to Book with a Fora Advisor</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Why Fora is Better than Amex</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="North America">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    North America
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">American West Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Auberge’s Primland Resort Spotlight</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Beverly Hills Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Canada’s Greatest Pairings: Urban Meets Untamed</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Cuffing Season</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Day of the Dead in Mexico: What to See, Eat & Experience</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Desrtination Debrief: Hawaii</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Alaska</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Austin</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Bachelorette Trips</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: CDMX & Central Mexico Getaways</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: California Road Trip</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Canadian Ski Destinations</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Cape Cod, Nantucket & Martha's Vineyard</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Charleston & Savannah</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Charleston & Savannah</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: College Tours</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Florida Gulf Coast</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Hawai‘i</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Hawai‘i</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Las Vegas</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Mexico City</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Mexico City</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Miami</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Montana & National Parks</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: New Orleans</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: New York City</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Palm Springs</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Puerto Vallarta</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Riviera Maya</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Romantic Destinations</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: St. Barths</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: U.S. Ski Destinations</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: US Sports Travel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Vail</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Washington, DC</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Favorite Michelin Key Hotels in the US</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Four Seasons Scottsdale Spotlight</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Guide to Epic & Ikon Passes</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Haunted Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Cap Juluca, A Belmond Hotel, Anguilla</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Casa de Sierra Nevada, A Belmond Hotel, San Miguel de Allende</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: El Encanto, A Belmond Hotel, Santa Barbara</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: La Samanna, A Belmond Hotel, St. Martin</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: La Valise</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Maroma, A Belmond Hotel, Riviera Maya</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: The LINE</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Jerome Hotel Spotlight</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels Under $500 in Las Vegas</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels under $500 in Miami</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotels under $500 in Riviera Maya</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Insider Picks for Hotels under $500 in Boston</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Insider Picks for Hotels under $500 in Cabo</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Insider Picks for Hotels under $500 in Los Angeles</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Los Angeles Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Los Cabos Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Mayakoba Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Mexico City Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Miami Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Michelin Keys in Canada</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Michelin Keys in Mexico</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">NYC Boutique Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">NYC Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">NYC Hotels Under $500</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">New York Glamour Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Page: Acqualina Resort & Residences On The Beach</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Brush Creek Ranch</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Edgewood Tahoe Resort</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Getaway House</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Hotel Bardo Savannah</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Hotels by Oliver</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Nobu Hotel Chicago</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Paséa Hotel & Spa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Proper Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Shutters on the Beach</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Terranea Resort</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: The Roxy Hotel New York</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Triumph Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Partner Spotlight: Viceroy Los Cabos</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Portland, ME hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Chablé Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Preferred Program: Palisociety</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Sedona Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Ski Town's You'll Love in the Summer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Ski destinations (and where to stay) in the United States</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Ambiente Sedona</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Balboa Bay Resort</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Beacon Grand</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Carneros Resort and Spa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Casa Majani</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Charleston Place</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Hotel Valley Ho</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Ko’a Kea Resort</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Lyle Washington, DC</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Mauna Lani</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on ModernHaus SoHo</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on NIZUC Resort & Spa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Nômade</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on One Hundred Shoreditch</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Sunset Tower Hotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Dewberry</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Frederick Hotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Greenwich Hotel's Spa</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Mercer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Ned NoMad</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on The Watergate Hotel</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Spotlight on Turtle Bay Resort</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The 10 Coziest Hotel Fireplaces for Fall Getaways</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The Best Hidden Gems for Long Weekends in the US</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The Fora Beach Club Reservations at Art Basel Miami</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The Most Scenic Road Trips in the US</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">The Shelborne by Proper Exclusive Offer</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Tulum & Cancun Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Warren Street Hotel Spotlight</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">World Cup 2026: The Essential Guide to Tickets, Travel & Hotels</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">the green o Hotel Spotlight</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="Oceania">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    Oceania
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: French Polynesia</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: New Zealand</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: New Zealand</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="continent-group" data-continent="South America">
+                <h3 style="color: #2d3748; font-size: 1.1rem; margin: 1rem 0 0.5rem 0; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+                    South America
+                </h3>
+                <ul style="columns: 2; column-gap: 2rem; list-style: none; padding: 0;">
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Argentina Hotel Round-Up</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Argentina</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Brazil</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Chile & Patagonia</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Destination Debrief: Peru</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Copacabana Palace, a Belmond Hotel, Rio de Janeiro</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Hotel das Cataratas, A Belmond Hotel, Iguazu Falls</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Las Casitas, A Belmond Hotel, Colca Canyon</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Miraflores Park Hotel, A Belmond hotel, Lima</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Monasterio, A Belmond Hotel, Cusco</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Palacio Nazarenas, A Belmond Hotel, Cusco</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Rio Sagrado, a Belmond Hotel, Sacred Valley</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Hotel Detail Page: Sanctuary Lodge, A Belmond Hotel, Machu Picchu</span>
+                    </li>
+                    <li style="padding: 0.25rem 0; break-inside: avoid;">
+                        <span style="color: #4a5568; font-size: 0.95rem;" title="">Patagonia Hotel Round-Up</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div style="margin-top: 1.5rem; padding: 1rem; background: white; border-radius: 6px; border-left: 4px solid #2c7a7b;">
+        <p style="color: #4a5568; margin: 0;">
+            <strong>Need a specific guide?</strong> These curated destination resources are available exclusively through consultation. 
+            <a href="contact.html" style="color: #2c7a7b; text-decoration: underline;">Contact me</a> to access detailed travel guides and personalized recommendations.
+        </p>
+    </div>
+</section>
+
+<script>
+// Filter functionality
+document.getElementById('continentFilter').addEventListener('change', function(e) {
+    const selected = e.target.value;
+    const groups = document.querySelectorAll('.continent-group');
+    
+    groups.forEach(group => {
+        if (selected === 'all' || group.dataset.continent === selected) {
+            group.style.display = 'block';
+        } else {
+            group.style.display = 'none';
+        }
+    });
+});
+</script>
+<!-- End FORA Travel Guides Section -->
